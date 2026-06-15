@@ -1,7 +1,9 @@
-# Moondew Canyon Web Builds
+# Moondew Canyon Builds
 
-This repository hosts public browser builds for Moondew Canyon.
+Public builds for Moondew Canyon.
 
-Play the current build:
+- `html/` - browser build served by GitHub Pages
+- `mac/` - macOS builds
+- `windows/` - Windows builds
+- `linux/` - Linux builds
 
-https://stickboy0042.github.io/Moondew-Canyon-Web/
