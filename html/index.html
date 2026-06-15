@@ -218,7 +218,9 @@ const engine = new Engine(GODOT_CONFIG);
 			statusProgress.removeAttribute('max');
 
 			for (const packPart of packParts) {
-				const response = await fetch(packPart, { credentials: 'same-origin' });
+				const packUrl = new URL(packPart, window.location.href);
+				packUrl.searchParams.set('v', GODOT_CONFIG.fileSizes['index.pck']);
+				const response = await fetch(packUrl, { credentials: 'same-origin' });
 				if (!response.ok) {
 					throw new Error(`${response.status} : ${response.url}`);
 				}
