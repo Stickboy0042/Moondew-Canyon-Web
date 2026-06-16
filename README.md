@@ -1,9 +1,8 @@
-# Moondew Canyon Builds
+# Moondew Canyon public builds
 
-Public builds for Moondew Canyon.
+Playable HTML build: https://stickboy0042.github.io/Moondew-Canyon-Web/
 
-- `html/` - browser build served by GitHub Pages
-- `mac/` - macOS builds
-- `windows/` - Windows builds
-- `linux/` - Linux builds
-
+Platform branches:
+- `html`: standalone web export files
+- `windows`: Windows desktop export, split into GitHub-safe parts
+- `linux`: Linux desktop export, split into GitHub-safe parts
